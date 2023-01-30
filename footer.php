@@ -1,0 +1,49 @@
+<?php
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package Wp_Theme
+ */
+
+?>
+
+<footer id="colophon" class="site-footer">
+	<div class="grid-container">
+		<div class="footer-section-one">
+			<h2>Welcome to DESIGNfly</h2>
+			<p class="grid-container-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id
+				justo cursus, euismod elit ac, imperdiet dui. Pellentesque porttitor a nulla laoreet facilisis.
+				Vestibulum a luctus lacus. Etiam suscipit eleifend dui eu semper.</p>
+			<a href="#" class="footer-read-more">Read More</a>
+		</div>
+		<div class="footer-section-two">
+			<h2>Contact us</h2>
+			<p>Street 21 Planet,A-11, dapibus tristique. 123551</p>
+			<p>Tel: 123 4567890; Fax: 123 456789</p>
+			<p>Email: <span class="email-color">contactus@designfly.com</span></p>
+			<div class="social-icons">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-pinterest"></a>
+			</div>
+		</div>
+	</div>
+	<div class="site-info">
+		<p class="inline-para">© 2022 - D'SIGNfly<span class="sep"> | </span></p>
+		<p class="inline-para">Designed by <span><a href="#" class="footer-link">rtCamp</a></span></p>
+	</div><!-- .site-info -->
+</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<?php wp_footer(); ?>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/lightbox-plus-jquery.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/lightbox.js"></script>
+</body>
+
+</html>
